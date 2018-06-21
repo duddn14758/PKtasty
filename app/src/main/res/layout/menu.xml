@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/maintheme"
+            android:scaleType="fitXY"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="menu"
+        android:textColor="#000"
+        android:fontFamily="@font/dh"
+        android:padding="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center_horizontal">
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/univ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="학식"
+                android:layout_margin="3dp"
+                android:background="#fff"
+                android:src="@drawable/m1"
+                android:fontFamily="@font/dh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <ImageButton
+                android:id="@+id/meat"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:text="고기"
+                android:src="@drawable/m2"
+                android:background="#fff"
+                android:fontFamily="@font/dh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <ImageButton
+                android:id="@+id/japan"
+                android:layout_width="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:src="@drawable/m3"
+                android:text="일식"
+                android:fontFamily="@font/dh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/western"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:src="@drawable/m4"
+                android:background="#fff"
+                android:text="양식"
+                android:fontFamily="@font/dh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <ImageButton
+                android:id="@+id/korea"
+                android:layout_width="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/m5"
+                android:background="#fff"
+                android:text="한식"
+                android:fontFamily="@font/dh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <ImageButton
+                android:id="@+id/china"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/m6"
+                android:layout_margin="3dp"
+                android:background="#fff"
+                android:text="중식"
+                android:fontFamily="@font/dh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/snack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/m7"
+                android:layout_margin="3dp"
+                android:background="#fff"
+                android:text="간식"
+                android:fontFamily="@font/dh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <ImageButton
+                android:id="@+id/fastfood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:src="@drawable/m8"
+                android:layout_margin="3dp"
+                android:text="패푸"
+                android:fontFamily="@font/dh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+            <ImageButton
+                android:id="@+id/pub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/m9"
+                android:background="#fff"
+                android:layout_margin="3dp"
+                android:text="술집"
+                android:fontFamily="@font/dh"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/roulette"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="60dp"
+        android:background="#fff"
+        android:src="@drawable/roul"
+        android:layout_alignParentRight="true" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="60dp"
+        android:text="선택장애를 위한 룰렛"
+        android:fontFamily="@font/dh"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+</RelativeLayout>
