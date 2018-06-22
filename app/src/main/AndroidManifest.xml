@@ -9,20 +9,21 @@
         android:roundIcon="@drawable/symbol"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".menu">
+        <activity android:name=".menu" android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".roulette">
+        <activity android:name=".roulette" android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".select1">
+        <activity android:name=".select1" android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".select2">
+        <activity android:name=".select2" android:screenOrientation="portrait">
         </activity>
 
     </application>
