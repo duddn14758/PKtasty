@@ -31,6 +31,7 @@ public class roulette extends AppCompatActivity {
         mBitMap = BitmapFactory.decodeResource(getResources(), R.drawable.rou);
         wheel.setImageBitmap(onResizeImage(mBitMap));
 
+
         ImageButton btn = (ImageButton) findViewById(R.id.rotate_btn);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
