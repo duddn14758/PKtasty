@@ -691,7 +691,8 @@ public class select2 extends AppCompatActivity {
 
                 map.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://google.com"));
+                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://map.naver.com/?mapmode=0&lng=59b497adcc7fc8c00447d61c4d3f6972&title=%EC%B2%AD%EC%B6%98%EC%8B%9D%EB%8B%B9&pinId=37965899&dlevel=10&lat=da779bfb50119074a806324838645fa2&enc=&pinType=site
+"));
                         startActivity(intent);
                     }
                 });
@@ -703,7 +704,8 @@ public class select2 extends AppCompatActivity {
 
                 map.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://google.com"));
+                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://map.naver.com/?mapmode=0&lng=10bc5b71d295d2d773530b1c9e813173&pinId=1859773629&lat=1177f8b8f9070488c642344ac0b7481b&dlevel=11&enc=b64&pinType=site
+"));
                         startActivity(intent);
                     }
                 });
@@ -713,7 +715,8 @@ public class select2 extends AppCompatActivity {
 
                 map.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://google.com"));
+                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://map.naver.com/?mapmode=0&lng=622b98685e7ed8e419033a0c6a629f02&pinId=817347892&lat=91ab12ee91aef888e9facc585433e3be&dlevel=11&enc=b64&pinType=site
+"));
                         startActivity(intent);
                     }
                 });
@@ -723,7 +726,8 @@ public class select2 extends AppCompatActivity {
 
                 map.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://google.com"));
+                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://map.naver.com/?mapmode=0&lng=bf0ef341d00a3269d4ebbb0ee673252a&pinId=1887942003&lat=5e5a8039aa7141def3c2c5628e3e0333&dlevel=11&enc=b64&pinType=site
+"));
                         startActivity(intent);
                     }
                 });
@@ -733,7 +737,8 @@ public class select2 extends AppCompatActivity {
 
                 map.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://google.com"));
+                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://map.naver.com/?mapmode=0&lng=cad377e838623d3475a70f824038c287&pinId=38549338&lat=427f5f7d8d903874c9e4bf5d31c596ef&dlevel=11&enc=b64&pinType=site
+"));
                         startActivity(intent);
                     }
                 });
@@ -743,7 +748,8 @@ public class select2 extends AppCompatActivity {
 
                 map.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://google.com"));
+                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://map.naver.com/?mapmode=0&lng=89cf83dd9b12ecbb129fd602a5f42268&pinId=604076317&pinType=site&lat=90d6f0c58286d214709502504c4dd331&dlevel=11&enc=b64
+"));
                         startActivity(intent);
                     }
                 });
@@ -754,7 +760,8 @@ public class select2 extends AppCompatActivity {
 
                 map.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://google.com"));
+                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://map.naver.com/?mapmode=0&lng=89b50a6d0cca782e680b74665f34a2c7&pinId=37392298&lat=fb6b0f8b0a07fcc3dd761bb6f920ac14&dlevel=11&enc=b64&pinType=site
+"));
                         startActivity(intent);
                     }
                 });
@@ -764,7 +771,8 @@ public class select2 extends AppCompatActivity {
 
                 map.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://google.com"));
+                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://map.naver.com/?mapmode=0&lng=09d0daeba556535c3d305dd439d82a7a&pinId=36655661&pinType=site&lat=74bf58749f9ca4bd8586efe816564397&dlevel=11&enc=b64
+"));
                         startActivity(intent);
                     }
                 });
@@ -774,7 +782,8 @@ public class select2 extends AppCompatActivity {
 
                 map.setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
-                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("http://google.com"));
+                        Intent intent = new Intent(ACTION_VIEW, Uri.parse("https://map.naver.com/?mapmode=0&lng=15b8906d4ba7e2a6ae28337a5f7349dd&pinId=31498241&pinType=site&lat=4d11775ca1635cb98f46d0767a96e9d9&dlevel=11&enc=b64
+"));
                         startActivity(intent);
                     }
                 });
